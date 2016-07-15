@@ -34,12 +34,12 @@ public abstract class FiguraGeometrica {
         /*
         float resul;
         
-        resul = (float) Math.pow(lado, lado);
+        resul = (float) Math.pow(lado, 2);
         
         return resul;*/
         
         //Esta opción es más óptima
-        return (float) Math.pow(lado, lado);
+        return (float) Math.pow(lado, 2);
     }
     
     //MÉTODOS Y GETTERS Y SETTERS
